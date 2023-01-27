@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intern-api", "intern-api\intern-api.csproj", "{5A067B16-BD50-4A16-9931-ED3154A5FE96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{0F21F11D-6504-44CD-9CCC-F738313831A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A067B16-BD50-4A16-9931-ED3154A5FE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A067B16-BD50-4A16-9931-ED3154A5FE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A067B16-BD50-4A16-9931-ED3154A5FE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A067B16-BD50-4A16-9931-ED3154A5FE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F21F11D-6504-44CD-9CCC-F738313831A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F21F11D-6504-44CD-9CCC-F738313831A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F21F11D-6504-44CD-9CCC-F738313831A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F21F11D-6504-44CD-9CCC-F738313831A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
