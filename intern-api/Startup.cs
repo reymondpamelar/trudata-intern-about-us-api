@@ -66,11 +66,18 @@ public class Startup
                 opts =>
                 {
                     opts.UseNpgsql(
-                        "Host=localhost;Port=5432;Username=postgres;Password=1325;Database=postgres;");
+                        "Host=localhost;Port=5432;Username=postgres;Password=Zxc12345;Database=postgres;");
                 }, ServiceLifetime.Transient);
             
             services.AddControllers().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+            
+            services.AddCors(options => {  
+                options.AddDefaultPolicy(builder => {  
+                    builder.WithOrigins("http://localhost:3000", "http://www.localhost:3000");  
+                });  
+            });  
+            services.AddControllers();  
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -82,7 +89,7 @@ public class Startup
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "dynamodb_sample v1"));
             }
-
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -90,7 +97,8 @@ public class Startup
             app.UseAuthentication();
             
             app.UseAuthorization();
-
+            
+            app.UseCors();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
 }

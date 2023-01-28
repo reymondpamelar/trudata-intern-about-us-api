@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj": {}
+    "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\intern-api.csproj": {}
   },
   "projects": {
-    "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj": {
+    "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\intern-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj",
+        "projectUniqueName": "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\intern-api.csproj",
         "projectName": "intern-api",
-        "projectPath": "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj",
-        "packagesPath": "/Users/connortoro/.nuget/packages/",
-        "outputPath": "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/obj/",
+        "projectPath": "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\intern-api.csproj",
+        "packagesPath": "C:\\Users\\npame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "/Users/connortoro/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\npame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +51,10 @@
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.9.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -104,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
