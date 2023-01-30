@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using intern_api.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 
 namespace intern_api.Controllers;
 
@@ -24,7 +25,7 @@ public class InternController : ControllerBase
     
     //GET BY User Name
     [HttpGet("getBy{id}")]
-    public async Task<ActionResult<User>> GetIntern(int id)
+    public async Task<ActionResult<Intern>> GetIntern(int id)
     {
         var item = await _dynamoDbContext.interns.FindAsync(id);
             
@@ -35,9 +36,23 @@ public class InternController : ControllerBase
 
         return Ok(item);
     }
+    
+    //GET all interns
+    [HttpGet("getAllInterns")]
+    public async Task<ActionResult<Intern>> GetAllInterns()
+    {
+        var item = await _dynamoDbContext.interns.ToListAsync();
+            
+        if (item == null)
+        {
+            return NotFound();
+        }
+
+        return Ok(item);
+    }
 
     [HttpPost]
-    public async Task<ActionResult<Intern>> PostIntern(InternDto arg)
+    public async Task<ActionResult<Intern>> PostIntern(Intern arg)
     {
         Intern? intern = new Intern();
         intern.Id = null;
@@ -45,6 +60,8 @@ public class InternController : ControllerBase
         intern.Email = arg.Email;
         intern.Image = arg.Image;
         intern.Description = arg.Description;
+        intern.LinkedInURL = arg.LinkedInURL;
+        intern.EngineerType = arg.EngineerType;
         await _dynamoDbContext.interns.AddAsync(intern);
         await _dynamoDbContext.SaveChangesAsync();
         return Ok(intern);
