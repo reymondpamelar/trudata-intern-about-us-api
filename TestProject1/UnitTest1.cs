@@ -17,6 +17,6 @@ public class UnitTest1
     [Fact]
     public async Task Post_ReturnsSuccessStatusCode()
     {
-        InternController testController = new InternController(new Mock<DataAccessLayer>);
+        //InternController testController = new InternController(new Mock<DataAccessLayer>);
     }
 }

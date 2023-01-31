@@ -1908,12 +1908,12 @@
           "runtimes/win-arm/lib/net6.0/dotnet-aspnet-codegenerator-design.exe": {
             "rid": "win-arm",
             "assetType": "runtime",
-            "fileVersion": "6.0.21.55506"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/lib/net6.0/dotnet-aspnet-codegenerator-design.exe": {
             "rid": "win-arm64",
             "assetType": "runtime",
-            "fileVersion": "6.0.21.55506"
+            "fileVersion": "0.0.0.0"
           }
         },
         "compile": {
@@ -3381,7 +3381,7 @@
         "runtime": {
           "lib/net35/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
+            "fileVersion": "0.0.0.0"
           }
         },
         "compile": {
@@ -3392,7 +3392,7 @@
         "runtime": {
           "lib/dotnet/xunit.assert.dll": {
             "assemblyVersion": "2.1.0.3179",
-            "fileVersion": "2.1.0.3179"
+            "fileVersion": "0.0.0.0"
           }
         },
         "compile": {
@@ -3412,7 +3412,7 @@
         "runtime": {
           "lib/dotnet/xunit.core.dll": {
             "assemblyVersion": "2.1.0.3179",
-            "fileVersion": "2.1.0.3179"
+            "fileVersion": "0.0.0.0"
           }
         },
         "compile": {
@@ -3426,7 +3426,7 @@
         "runtime": {
           "lib/net45/xunit.execution.desktop.dll": {
             "assemblyVersion": "2.1.0.3179",
-            "fileVersion": "2.1.0.3179"
+            "fileVersion": "0.0.0.0"
           }
         },
         "compile": {

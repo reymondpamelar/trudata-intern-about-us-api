@@ -25,7 +25,7 @@ public class InternController : ControllerBase
     
     
     //GET BY User Name
-    [HttpGet]
+    [HttpGet("/api/intern/{userName}")]
     public async Task<ActionResult<Intern>> GetIntern([FromQuery] int? id, [FromQuery] string? username)
     {
         ActionResult<Intern> item;
@@ -50,6 +50,13 @@ public class InternController : ControllerBase
     public async Task<ActionResult<Intern>> PostIntern(InternDto arg)
     {
         return Ok(_dataLayer.PostIntern(arg));
+    }
+    
+    [HttpGet("getAllInterns")]
+    public async Task<ActionResult<Intern>> GetAllInterns()
+    {
+        var res = await _dataLayer.GetAllInterns();
+        return Ok(res);
     }
     
 }

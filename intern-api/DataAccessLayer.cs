@@ -28,7 +28,8 @@ public class DataAccessLayer : IDataAccessLayer
             Email = arg.Email,
             Image = arg.Image,
             Description = arg.Description,
-            Linkedin = arg.Linkedin
+            LinkedInURL = arg.LinkedInURL,
+            EngineerType = arg.EngineerType
         };
         
         _context.interns.AddAsync(intern);
@@ -36,13 +37,24 @@ public class DataAccessLayer : IDataAccessLayer
         
         return intern;
     }
+    
+    //Get All Interns
+    public async Task<List<Intern>> GetAllInterns()
+    {
+        var res = await _context.interns.ToListAsync();
+        return res;
+
+    }
 
     public async Task<ActionResult<Contact>> PostContactToDb(ContactDto con)
     {
-        Contact contact = new Contact();
-        contact.Address = con.Address;
-        contact.Title = con.Title;
-        contact.Body = con.Body;
+        Contact contact = new Contact()
+        {
+            Address = con.Address,
+            Title = con.Title,
+            Body = con.Body
+        };
+        
         await _context.contact.AddAsync(contact);
         return contact;
 
