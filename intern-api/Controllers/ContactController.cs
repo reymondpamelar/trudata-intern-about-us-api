@@ -8,7 +8,7 @@ namespace intern_api.Controllers;
 public class ContactController
 {
     [HttpPost("sendEmail")]
-    public async Task<ActionResult<Contact>> SendEmail(Contact contact)
+    public async Task<ActionResult<Contact>> SendEmail([FromBody]Contact contact)
     {
         var smtpClient = new SmtpClient("smtp.gmail.com")
         {
