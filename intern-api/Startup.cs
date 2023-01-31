@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using intern_api.Controllers;
 using intern_api.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -34,7 +35,7 @@ public class Startup
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            
             services.AddSwaggerGen(c =>
             {
                 c.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
@@ -68,7 +69,8 @@ public class Startup
                     opts.UseNpgsql(
                         "Host=localhost;Port=5432;Username=postgres;Password=Zxc12345;Database=intern-api;");
                 }, ServiceLifetime.Transient);
-            
+            services.AddMvc();
+            services.AddTransient<IDataAccessLayer, DataAccessLayer>();
             services.AddControllers().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
             
