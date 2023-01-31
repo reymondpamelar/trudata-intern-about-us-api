@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/connortoro/Desktop/untitled folder/intern-api/TestProject1/TestProject1.csproj": {}
+    "/Users/connortoro/Desktop/intern-api/TestProject1/TestProject1.csproj": {}
   },
   "projects": {
-    "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj": {
+    "/Users/connortoro/Desktop/intern-api/intern-api/intern-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj",
+        "projectUniqueName": "/Users/connortoro/Desktop/intern-api/intern-api/intern-api.csproj",
         "projectName": "intern-api",
-        "projectPath": "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj",
+        "projectPath": "/Users/connortoro/Desktop/intern-api/intern-api/intern-api.csproj",
         "packagesPath": "/Users/connortoro/.nuget/packages/",
-        "outputPath": "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/obj/",
+        "outputPath": "/Users/connortoro/Desktop/intern-api/intern-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/connortoro/.nuget/NuGet/NuGet.Config"
@@ -108,14 +108,14 @@
         }
       }
     },
-    "/Users/connortoro/Desktop/untitled folder/intern-api/TestProject1/TestProject1.csproj": {
+    "/Users/connortoro/Desktop/intern-api/TestProject1/TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/connortoro/Desktop/untitled folder/intern-api/TestProject1/TestProject1.csproj",
+        "projectUniqueName": "/Users/connortoro/Desktop/intern-api/TestProject1/TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "/Users/connortoro/Desktop/untitled folder/intern-api/TestProject1/TestProject1.csproj",
+        "projectPath": "/Users/connortoro/Desktop/intern-api/TestProject1/TestProject1.csproj",
         "packagesPath": "/Users/connortoro/.nuget/packages/",
-        "outputPath": "/Users/connortoro/Desktop/untitled folder/intern-api/TestProject1/obj/",
+        "outputPath": "/Users/connortoro/Desktop/intern-api/TestProject1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/connortoro/.nuget/NuGet/NuGet.Config"
@@ -130,8 +130,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj": {
-                "projectPath": "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj"
+              "/Users/connortoro/Desktop/intern-api/intern-api/intern-api.csproj": {
+                "projectPath": "/Users/connortoro/Desktop/intern-api/intern-api/intern-api.csproj"
               }
             }
           }

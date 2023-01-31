@@ -15,39 +15,42 @@ namespace intern_api.Controllers;
 
 public class InternController : ControllerBase
 {
-    private readonly AppDbContext _dynamoDbContext;
-    public InternController(AppDbContext dynamoDbContext)
+    private readonly IDataAccessLayer _dataLayer;
+    
+    
+    public InternController(IDataAccessLayer datalayer)
     {
-        _dynamoDbContext = dynamoDbContext;
+        _dataLayer = datalayer;
     }
     
     
     //GET BY User Name
-    [HttpGet("getBy{id}")]
-    public async Task<ActionResult<User>> GetIntern(int id)
+    [HttpGet]
+    public async Task<ActionResult<Intern>> GetIntern([FromQuery] int? id, [FromQuery] string? username)
     {
-        var item = await _dynamoDbContext.interns.FindAsync(id);
+        ActionResult<Intern> item;
+        if(id != null)
+        {
+            item = await _dataLayer.GetIntern(id);
+        }
+        else
+        {
+            item = await _dataLayer.GetInternByUsername(username);
+        }
             
         if (item == null)
         {
             return NotFound();
         }
 
-        return Ok(item);
+        return Ok(item.Value);
     }
 
     [HttpPost]
     public async Task<ActionResult<Intern>> PostIntern(InternDto arg)
     {
-        Intern? intern = new Intern();
-        intern.Id = null;
-        intern.Username = arg.Username;
-        intern.Email = arg.Email;
-        intern.Image = arg.Image;
-        intern.Description = arg.Description;
-        await _dynamoDbContext.interns.AddAsync(intern);
-        await _dynamoDbContext.SaveChangesAsync();
-        return Ok(intern);
+        return Ok(_dataLayer.PostIntern(arg));
     }
+    
 }
 

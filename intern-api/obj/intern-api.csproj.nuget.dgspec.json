@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj": {}
+    "/Users/connortoro/Desktop/intern-api/intern-api/intern-api.csproj": {}
   },
   "projects": {
-    "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj": {
+    "/Users/connortoro/Desktop/intern-api/intern-api/intern-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj",
+        "projectUniqueName": "/Users/connortoro/Desktop/intern-api/intern-api/intern-api.csproj",
         "projectName": "intern-api",
-        "projectPath": "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/intern-api.csproj",
+        "projectPath": "/Users/connortoro/Desktop/intern-api/intern-api/intern-api.csproj",
         "packagesPath": "/Users/connortoro/.nuget/packages/",
-        "outputPath": "/Users/connortoro/Desktop/untitled folder/intern-api/intern-api/obj/",
+        "outputPath": "/Users/connortoro/Desktop/intern-api/intern-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/connortoro/.nuget/NuGet/NuGet.Config"
