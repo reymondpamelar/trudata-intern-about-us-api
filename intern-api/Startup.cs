@@ -66,7 +66,7 @@ public class Startup
                 opts =>
                 {
                     opts.UseNpgsql(
-                        "Host=localhost;Port=5432;Username=postgres;Password=Zxc12345;Database=postgres;");
+                        "Host=localhost;Port=5432;Username=postgres;Password=Zxc12345;Database=intern-api;");
                 }, ServiceLifetime.Transient);
             
             services.AddControllers().AddJsonOptions(x =>

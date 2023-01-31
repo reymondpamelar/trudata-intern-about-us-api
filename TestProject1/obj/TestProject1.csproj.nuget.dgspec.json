@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\TestProject1\\TestProject1.csproj": {}
+    "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/TestProject1/TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\intern-api.csproj": {
+    "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/intern-api/intern-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\intern-api.csproj",
+        "projectUniqueName": "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/intern-api/intern-api.csproj",
         "projectName": "intern-api",
-        "projectPath": "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\intern-api.csproj",
-        "packagesPath": "C:\\Users\\npame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\obj\\",
+        "projectPath": "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/intern-api/intern-api.csproj",
+        "packagesPath": "/Users/reymondpamelar/.nuget/packages/",
+        "outputPath": "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/intern-api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
-        ],
         "configFilePaths": [
-          "C:\\Users\\npame\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/reymondpamelar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -114,40 +108,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.404/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\TestProject1\\TestProject1.csproj": {
+    "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/TestProject1/TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/TestProject1/TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\TestProject1\\TestProject1.csproj",
-        "packagesPath": "C:\\Users\\npame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\TestProject1\\obj\\",
+        "projectPath": "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/TestProject1/TestProject1.csproj",
+        "packagesPath": "/Users/reymondpamelar/.nuget/packages/",
+        "outputPath": "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/TestProject1/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
-        ],
         "configFilePaths": [
-          "C:\\Users\\npame\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/reymondpamelar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\intern-api.csproj": {
-                "projectPath": "C:\\Users\\npame\\Desktop\\Internship Work\\intern-api\\intern-api\\intern-api.csproj"
+              "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/intern-api/intern-api.csproj": {
+                "projectPath": "/Users/reymondpamelar/Desktop/TruData Internship/intern-api/intern-api/intern-api.csproj"
               }
             }
           }
@@ -207,7 +195,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.404/RuntimeIdentifierGraph.json"
         }
       }
     }
