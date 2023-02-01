@@ -641,3 +641,5 @@
 /Users/connortoro/RiderProjects/intern-api/TestProject1/obj/Debug/net6.0/TestProject1.pdb
 /Users/connortoro/RiderProjects/intern-api/TestProject1/obj/Debug/net6.0/TestProject1.genruntimeconfig.cache
 /Users/connortoro/RiderProjects/intern-api/TestProject1/obj/Debug/net6.0/ref/TestProject1.dll
+/Users/reymondpamelar/Desktop/intern-api/TestProject1/obj/Debug/net6.0/TestProject1.dll
+/Users/reymondpamelar/Desktop/intern-api/TestProject1/obj/Debug/net6.0/TestProject1.pdb
